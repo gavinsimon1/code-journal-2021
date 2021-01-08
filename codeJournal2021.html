@@ -68,3 +68,20 @@ function incrementer () {
 </p>
 
 
+
+<p>
+    Date: 1/8/2021
+    Progress: Functional Programming: Use the filter Method to Extract Data from an Array
+
+    var filteredList = watchList
+  .map(x => {
+    return {
+      title: x.Title,
+      rating: x.imdbRating
+    };
+  })
+  .filter(x => {
+    return parseFloat(x.rating) >= 8.0;
+  });
+    
+</p>
