@@ -162,3 +162,22 @@ function incrementer () {
 
     
 </p>
+
+
+
+<p>
+    Date: 1/17/2021
+    Progress: Functional Programming:  Apply Functional Programming to Convert Strings to URL Slugs
+    
+function urlSlug(title) {
+   return title
+   .split(/\W/) 
+   .filter(x => {
+      return x !== "";
+  })
+  .join("-")
+  .toLowerCase()
+}
+
+    
+</p>
