@@ -274,3 +274,10 @@ orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
     Progress: Regular Expressions: Reuse Patterns Using Capture Groups
     let reRegex = /^(\d+)\s\1\s\1$/;
     </p>
+
+<p>
+    Date: 1/27/2021
+    Progress: Regular Expressions: Remove Whitespace from Start and End
+    let wsRegex = /^\s+|\s+$/g;  
+    let result = hello.replace(wsRegex, "");
+    </p>
